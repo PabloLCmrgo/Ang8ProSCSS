@@ -4,6 +4,7 @@ import { BreadCrumbsComponent } from './bread-crumbs/bread-crumbs.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -15,7 +16,8 @@ import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
     NoPageFoundComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     BreadCrumbsComponent,
